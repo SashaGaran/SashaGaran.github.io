@@ -9,11 +9,6 @@
 }
 
 .footer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
 	justify-content: center;
-	position: relative;
 	height: 40px;
-	width: 100%;
 }
