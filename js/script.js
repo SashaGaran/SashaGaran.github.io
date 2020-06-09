@@ -1,6 +1,8 @@
 let navbr = document.querySelector('.navbar');
-let footr = document.querySelector('.footer')
 let themeButton = document.querySelector('.theme-button');
+let icontheme = document.querySelector('.fas');
+let footr = document.querySelector('.footer');
+
 themeButton.onclick = function() {
 	// NAVBAR
 	navbr.classList.toggle('navbar-dark');
@@ -9,10 +11,18 @@ themeButton.onclick = function() {
 	navbr.classList.toggle('navbar-light');
 	navbr.classList.toggle('bg-light');
 
-	// FOOTER
-	footr.classList.toggle('bg-dark')
-	footr.classList.toggle('text-light')
+	// THEME BUTTON
+	themeButton.classList.toggle('gray-200');
+	themeButton.classList.toggle('btn-secondary');
 
-	footr.classList.toggle('bg-muted')
-	footr.classList.toggle('text-dark')
+	// ICON THEME
+	icontheme.classList.toggle('fa-sun');
+	icontheme.classList.toggle('fa-moon');
+
+	// FOOTER
+	footr.classList.toggle('bg-dark');
+	footr.classList.toggle('text-light');
+
+	footr.classList.toggle('bg-muted');
+	footr.classList.toggle('text-dark');
 }

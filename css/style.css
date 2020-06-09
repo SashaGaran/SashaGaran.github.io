@@ -12,3 +12,11 @@
 	justify-content: center;
 	height: 40px;
 }
+
+.card-article {
+	transition: 0.2s ease-out;
+}
+
+.card-article:hover {
+	transform: translateY(-0.8rem);
+}
