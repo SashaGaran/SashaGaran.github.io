@@ -1,3 +1,7 @@
+.text-indent {
+	text-indent: 2.5em;
+}
+
 .carousel {
 	margin-bottom: 2rem;
 }
@@ -19,4 +23,16 @@
 
 .card-article:hover {
 	transform: translateY(-0.8rem);
+}
+
+.smooth_scroll {
+	transform-origin: 50% 0%;
+}
+
+.smooth_out_container {
+	transform-origin: 50% 50%;
+}
+
+.smooth_in_container {
+	transform-origin: 50% 50%;
 }
