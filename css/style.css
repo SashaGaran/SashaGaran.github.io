@@ -8,13 +8,8 @@
 
 .carousel-item > img {
 	min-width: 100%;
-	max-height: 36rem;
+	max-height: 38rem;
 	object-fit: cover;
-}
-
-.footer {
-	justify-content: center;
-	height: 40px;
 }
 
 .card-article {
@@ -25,14 +20,25 @@
 	transform: translateY(-0.8rem);
 }
 
+.hide {
+	visibility: hidden;
+}
+
 .smooth_scroll {
+	visibility: hidden;
 	transform-origin: 50% 0%;
 }
 
 .smooth_out_container {
+	visibility: hidden;
 	transform-origin: 50% 50%;
 }
 
 .smooth_in_container {
 	transform-origin: 50% 50%;
+}
+
+.footer {
+	justify-content: center;
+	height: 40px;
 }

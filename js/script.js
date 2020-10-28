@@ -31,7 +31,7 @@ themeButton.onclick = function() {
 ScrollReveal({ easing: 'cubic-bezier(0.17,0.84,0.44,1)' });
 ScrollReveal({ rotate: { x: -60, y: 0, z: 0 } });
 ScrollReveal({ scale: 0.92 });
-ScrollReveal({ viewFactor: 0.1 });
+ScrollReveal({ viewFactor: 0.2 });
 
 
 ScrollReveal().reveal('.card-tag', { delay: 220 });
@@ -45,7 +45,3 @@ ScrollReveal().reveal('.smooth_in_container', { delay: 120 });
 ScrollReveal().reveal('table', { delay: 220 });
 ScrollReveal().reveal('tr', { delay: 420 });
 ScrollReveal().reveal('tr', { interval: 100 });
-
-// $(document).ready(function() {
-// 	$(".toast").toast('show');
-// });
