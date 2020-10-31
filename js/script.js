@@ -27,7 +27,7 @@ themeButton.onclick = function() {
 	footr.classList.toggle('text-dark');
 }
 
-ScrollReveal({ reset: true });
+// ScrollReveal({ reset: true });
 ScrollReveal({ easing: 'cubic-bezier(0.17,0.84,0.44,1)' });
 ScrollReveal({ rotate: { x: -60, y: 0, z: 0 } });
 ScrollReveal({ scale: 0.92 });
